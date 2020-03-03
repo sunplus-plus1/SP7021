@@ -22,3 +22,6 @@
 [submodule "linux/rootfs"]
 	path = linux/rootfs
 	url = https://github.com/sunplus-plus1/rootfs.git
+[submodule "build"]
+	path = build
+	url = https://github.com/sunplus-plus1/build.git
