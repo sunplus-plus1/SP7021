@@ -1,3 +1,9 @@
 [submodule "linux/kernel"]
 	path = linux/kernel
 	url = https://github.com/sunplus-plus1/linux.git
+[submodule "nonos/Bchip-non-os"]
+	path = nonos/Bchip-non-os
+	url = https://github.com/sunplus-plus1/Bchip-non-os.git
+[submodule "nonos/Achip-non-os"]
+	path = nonos/Achip-non-os
+	url = https://github.com/sunplus-plus1/Achip-non-os.git
