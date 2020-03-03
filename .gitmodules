@@ -19,3 +19,6 @@
 [submodule "boot/draminit"]
 	path = boot/draminit
 	url = https://github.com/sunplus-plus1/draminit.git
+[submodule "linux/rootfs"]
+	path = linux/rootfs
+	url = https://github.com/sunplus-plus1/rootfs.git
