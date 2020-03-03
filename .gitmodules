@@ -1,0 +1,3 @@
+[submodule "linux/kernel"]
+	path = linux/kernel
+	url = https://github.com/sunplus-plus1/linux.git
