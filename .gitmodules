@@ -10,3 +10,12 @@
 [submodule "crossgcc"]
 	path = crossgcc
 	url = https://github.com/sunplus-plus1/crossgcc.git
+[submodule "boot/uboot"]
+	path = boot/uboot
+	url = https://github.com/sunplus-plus1/u-boot.git
+[submodule "boot/xboot"]
+	path = boot/xboot
+	url = https://github.com/sunplus-plus1/x-boot.git
+[submodule "boot/draminit"]
+	path = boot/draminit
+	url = https://github.com/sunplus-plus1/draminit.git
