@@ -25,3 +25,9 @@
 [submodule "build"]
 	path = build
 	url = https://github.com/sunplus-plus1/build.git
+[submodule "freertos"]
+	path = freertos
+	url = https://github.com/sunplus-plus1/freertos
+[submodule "ipack"]
+	path = ipack
+	url = https://github.com/sunplus-plus1/ipack.git
