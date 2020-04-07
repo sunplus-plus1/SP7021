@@ -26,4 +26,4 @@ Q628 configs.
 [12] Pentagram A chip (USB), revB IC
 [13] others
 ```
-please choose [7]~[12] for this board and get image file from out folder after make.
+please choose [7]~[12] for this board and get image file in the "out" folder after make.
