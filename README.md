@@ -1,4 +1,4 @@
-# How to compile demo board v3 (bpi-f2s)
+# How to compile 
 
 Please run following commands to get source code:
 ```bash
@@ -7,23 +7,29 @@ cd demo-board
 git submodule update --init --recursive
 git submodule update --remote --merge
 git submodule foreach --recursive git checkout master
-make bpi-f2s
+make clean
+make config
 ```
 then show
 ```bash
-Q628 configs.
-[1] Pentagram B chip (EMMC), revB IC
-[2] Pentagram B chip (SPI-NAND), revB IC
-[3] Pentagram B chip (NOR/romter), revB IC
-[4] Pentagram B chip (SDCARD), revB IC
-[5] Pentagram B chip (TFTP), revB IC
-[6] Pentagram B chip (USB), revB IC
-[7] Pentagram A chip (EMMC), revB IC
-[8] Pentagram A chip (SPI-NAND), revB IC
-[9] Pentagram A chip (NOR/romter), revB IC
-[10] Pentagram A chip (SDCARD), revB IC
-[11] Pentagram A chip (TFTP), revB IC
-[12] Pentagram A chip (USB), revB IC
-[13] others
+Select boards:
+[1] SP7021 Ev Board
+[2] LTPP3G2 Board
+[3] SP7021 Demo Board (V1/V2)
+[4] SP7021 Demo Board (V3)
+[5] BPi-F2S Board
+[6] BPi-F2P Board
 ```
-please choose [7]~[12] for this board and get image file in the "out" folder after make.
+```bash
+Select configs (C chip).
+[1] eMMC
+[2] SD Card
+```
+please select your board and boot device. after make config is completed. then,
+```bash
+make all
+```
+finally, please get image file from `out` folder 
+
+Note:
+The defconfig of LTPP3G2 is composite by many modules, the content is vary from modules to modules. So if you want to build it,  please be sure you have deconfig that you are using and to replace `linux/kernel/arch/arm/configs/sp7021_chipC_ltpp3g2_defconfig`
