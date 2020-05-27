@@ -2,8 +2,8 @@
 
 Please run following commands to get source code:
 ```bash
-git clone https://github.com/sunplus-plus1/demo-board.git
-cd demo-board 
+git clone https://github.com/sunplus-plus1/SP7021.git
+cd SP7021
 git submodule update --init --recursive
 git submodule update --remote --merge
 git submodule foreach --recursive git checkout master
