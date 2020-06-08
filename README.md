@@ -38,11 +38,11 @@ make all
 finally, please get image file from `out` folder 
 
 if you choose :
-1) eMMC:
+[1] eMMC:
   1. Copy out/ISPBOOOT.BIN in out folder to USB stick (FAT32)
   2. Update USB stick to eMMC -> (Power off, set SW1 to ON, SW2 to OFF, power on)
   3. Boot kernel -> (Power off, set SW1 to OFF, SW2 to OFF, power on)
-2) SD Card:
+[2] SD Card:
   1. get out/boot2linux_SDcard/ISP_SD_BOOOT.img
   2. copy to sdcard -> (sudo dd if=ISP_SD_BOOOT.img of=/dev/sdx bs=1M, /dev/sdx is your sdcard address)
   3. put your sdcard to board and boot -> (Power off, set SW1 to ON, SW2 to ON, power on)
