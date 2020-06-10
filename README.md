@@ -7,7 +7,6 @@ cd SP7021_4.19
 git submodule update --init --recursive
 git submodule update --remote --merge
 git submodule foreach --recursive git checkout master
-make clean
 make config
 ```
 then show
@@ -33,7 +32,7 @@ Select configs (C chip).
 ```
 after make config is completed. then,
 ```bash
-make all
+make or make all
 ```
 finally, please get image file from `out` folder 
 
