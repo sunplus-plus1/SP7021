@@ -1,9 +1,14 @@
 # How to compile 
-
+Before you compile, please install some packages for compiling.
+```bash
+sudo apt-get install openssl libssl-dev bison flex
+```
 Please run following commands to get source code:
 ```bash
 git clone https://github.com/sunplus-plus1/SP7021_4.19.git
 cd SP7021_4.19
+echo "export PATH=\$PATH:"`pwd`/boot/uboot/tools >> ~/.bashrc
+source ~/.bashrc
 git submodule update --init --recursive
 git submodule update --remote --merge
 git submodule foreach --recursive git checkout master
