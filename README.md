@@ -5,8 +5,8 @@ sudo apt-get install openssl libssl-dev bison flex
 ```
 Please run following commands to get source code:
 ```bash
-git clone https://github.com/sunplus-plus1/SP7021_4.19.git
-cd SP7021_4.19
+git clone https://github.com/sunplus-plus1/SP7021.git
+cd SP7021
 echo "export PATH=\$PATH:"`pwd`/boot/uboot/tools >> ~/.bashrc
 source ~/.bashrc
 git submodule update --init --recursive
@@ -18,7 +18,7 @@ then show
 ```bash
 Select boards:
 [1] SP7021 Ev Board               [11] I143 Ev Board
-[2] LTPP3G2 Board
+[2] LTPP3G2 Board                 [12] I143 Zebu (zmem)
 [3] SP7021 Demo Board (V1/V2)
 [4] SP7021 Demo Board (V3)
 [5] BPi-F2S Board
