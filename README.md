@@ -12,6 +12,11 @@ source ~/.bashrc
 git submodule update --init --recursive
 git submodule update --remote --merge
 git submodule foreach --recursive git checkout master
+### current linux kernel branch is kernel 5.4, if you want to build kernel 4.19, please
+cd linux/kernel 
+git checkout kernel_4.19
+cd -
+###
 make config
 ```
 then show
