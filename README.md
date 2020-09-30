@@ -46,6 +46,7 @@ cat <<EOT >> gadget_config
 #
 # USB Physical Layer drivers
 #
+CONFIG_USB_GADGET=y
 CONFIG_SUNPLUS_USB_PHY=y
 CONFIG_USB_SUNPLUS_OTG=y
 CONFIG_USB_GADGET=y
@@ -76,11 +77,22 @@ CONFIG_USB_G_NCM=m
 CONFIG_USB_GADGETFS=m
 CONFIG_USB_MASS_STORAGE=m
 CONFIG_CONFIGFS_FS=m
+# CONFIG_USB_CONFIGFS_F_PRINTER is not set
+# CONFIG_USB_CONFIGFS_F_UVC is not set
+# CONFIG_USB_CONFIGFS_F_HID is not set
+# CONFIG_USB_CONFIGFS_F_FS is not set
+# CONFIG_USB_CONFIGFS_F_LB_SS is not set
+# CONFIG_USB_CONFIGFS_EEM is not set
+# CONFIG_USB_CONFIGFS_ECM_SUBSET is not set
+# CONFIG_USB_CONFIGFS_OBEX is not set
+# CONFIG_USB_CONFIGFS_ACM is not set
+# CONFIG_USB_CONFIGFS_SERIAL is not set
+# CONFIG_FSL_UTP is not set
+# CONFIG_USB_ETH_EEM is not set
 EOT
 
 cd linux/kernel
-scripts/kconfig/merge_config.sh -n .config ../../gadget_config
-echo '# CONFIG_KCOV is not set' >> .config
+scripts/kconfig/merge_config.sh -m .config ../../gadget_config
 cd ../..
 ```
 >after make config is completed. then,
