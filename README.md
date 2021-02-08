@@ -1,7 +1,7 @@
 # How to compile 
 >Before you compile, please install some packages for compiling.
 ```bash
-sudo apt-get install openssl libssl-dev bison flex
+sudo apt-get install openssl libssl-dev bison flex git make
 ```
 >Get source code and make config
 ```bash
