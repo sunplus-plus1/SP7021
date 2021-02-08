@@ -1,14 +1,12 @@
 # How to compile 
 >Before you compile, please install some packages for compiling.
 ```bash
-sudo apt-get install openssl libssl-dev bison flex git make
+sudo apt-get install openssl libssl-dev bison flex git make u-boot-tools
 ```
 >Get source code and make config
 ```bash
 git clone https://github.com/sunplus-plus1/SP7021.git
 cd SP7021
-echo "export PATH=\$PATH:"`pwd`/boot/uboot/tools >> ~/.bashrc
-source ~/.bashrc
 git submodule update --init --recursive
 git submodule foreach --recursive git checkout master
 ### current linux kernel branch is kernel 5.4, if you want to build kernel 4.19, please
