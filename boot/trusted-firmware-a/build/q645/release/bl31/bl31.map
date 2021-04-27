@@ -1,0 +1,1816 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memcpy.o)
+                              /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o (memcpy)
+/home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memmove.o)
+                              /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o (memmove)
+/home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memset.o)
+                              /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_svc.o (memset)
+/home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(printf.o)
+                              /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/tf_log.o (vprintf)
+/home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(putchar.o)
+                              /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/tf_log.o (putchar)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/build_message.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/build_message.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/build_message.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .text.cm_set_context
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .eh_frame      0x0000000000000000       0x88 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .text.bl31_lib_init
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .text.bl31_set_next_image_type
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .text.bl31_get_next_image_type
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .text.bl31_register_bl32_init
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .eh_frame      0x0000000000000000       0xe0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+ .text.set_scr_el3_from_rm
+                0x0000000000000000       0x84 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+ .text.set_routing_model
+                0x0000000000000000       0x98 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+ .text.disable_intr_rm_local
+                0x0000000000000000       0x34 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+ .text.enable_intr_rm_local
+                0x0000000000000000       0x50 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+ .text.register_interrupt_type_handler
+                0x0000000000000000       0x68 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+ .eh_frame      0x0000000000000000      0x110 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_svc.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_svc.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_svc.o
+ .text.handle_runtime_svc
+                0x0000000000000000       0x74 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_svc.o
+ .eh_frame      0x0000000000000000       0x60 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_svc.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_read_isenabler
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_read_icenabler
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_read_ispendr
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_read_icpendr
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_read_isactiver
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_read_icactiver
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_read_ipriorityr
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_read_nsacr
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_write_ispendr
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_write_icpendr
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_write_isactiver
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_write_icactiver
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_write_nsacr
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_get_igroupr
+                0x0000000000000000       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_set_igroupr
+                0x0000000000000000       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_set_icenabler
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_set_ispendr
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_set_icpendr
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_get_isactiver
+                0x0000000000000000       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_set_isactiver
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text.gicd_set_icactiver
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .eh_frame      0x0000000000000000      0x2d0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .text.gicd_read_itargetsr
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .text.gicd_read_cpendsgir
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .text.gicd_read_spendsgir
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .text.gicd_write_itargetsr
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .text.gicd_write_cpendsgir
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .text.gicd_write_spendsgir
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .text.gicv2_get_cpuif_id
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .eh_frame      0x0000000000000000      0x130 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_is_fiq_enabled
+                0x0000000000000000       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_get_pending_interrupt_id
+                0x0000000000000000       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_acknowledge_interrupt
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_end_of_interrupt
+                0x0000000000000000       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_get_interrupt_group
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_get_running_priority
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_set_pe_target_mask
+                0x0000000000000000       0x3c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_get_interrupt_active
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_enable_interrupt
+                0x0000000000000000       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_disable_interrupt
+                0x0000000000000000       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_set_interrupt_priority
+                0x0000000000000000       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_set_interrupt_type
+                0x0000000000000000       0x74 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_raise_sgi
+                0x0000000000000000       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_set_spi_routing
+                0x0000000000000000       0x34 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_clear_interrupt_pending
+                0x0000000000000000       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_set_interrupt_pending
+                0x0000000000000000       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_set_pmr
+                0x0000000000000000       0x2c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text.gicv2_interrupt_set_cfg
+                0x0000000000000000       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .bss.gic_lock  0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .eh_frame      0x0000000000000000      0x258 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/delay_timer.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/delay_timer.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/delay_timer.o
+ .eh_frame      0x0000000000000000       0x68 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/delay_timer.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/generic_delay_timer.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/generic_delay_timer.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/generic_delay_timer.o
+ .eh_frame      0x0000000000000000       0x60 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/generic_delay_timer.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/errata_report.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/errata_report.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/errata_report.o
+ .text.errata_needs_reporting
+                0x0000000000000000       0x60 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/errata_report.o
+ .rodata.errata_print_msg.str1.1
+                0x0000000000000000       0x6c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/errata_report.o
+ .text.errata_print_msg
+                0x0000000000000000       0x68 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/errata_report.o
+ .comment       0x0000000000000000       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/errata_report.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/errata_report.o
+ .eh_frame      0x0000000000000000       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/errata_report.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+ .text.cm_el1_sysregs_context_save
+                0x0000000000000000       0x7c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+ .text.cm_set_elr_el3
+                0x0000000000000000       0x24 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+ .text.cm_set_elr_spsr_el3
+                0x0000000000000000       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+ .text.cm_write_scr_el3_bit
+                0x0000000000000000       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+ .text.cm_get_scr_el3
+                0x0000000000000000       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+ .eh_frame      0x0000000000000000      0x1c0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data_array.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data_array.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data_array.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bakery_lock_normal.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bakery_lock_normal.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bakery_lock_normal.o
+ .text.bakery_lock_get
+                0x0000000000000000      0x13c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bakery_lock_normal.o
+ .text.bakery_lock_release
+                0x0000000000000000       0x68 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bakery_lock_normal.o
+ .comment       0x0000000000000000       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bakery_lock_normal.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bakery_lock_normal.o
+ .eh_frame      0x0000000000000000       0x68 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bakery_lock_normal.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .text.psci_validate_suspend_req
+                0x0000000000000000       0xa0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .text.psci_register_spd_pm_hook
+                0x0000000000000000       0x3c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .text.psci_secondaries_brought_up
+                0x0000000000000000       0x3c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .rodata.psci_stop_other_cores.str1.1
+                0x0000000000000000       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .text.psci_stop_other_cores
+                0x0000000000000000       0xc4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .eh_frame      0x0000000000000000      0x310 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+ .text.psci_version
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+ .eh_frame      0x0000000000000000      0x1e8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_mem_protect.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_mem_protect.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_mem_protect.o
+ .eh_frame      0x0000000000000000       0x60 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_mem_protect.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_off.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_off.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_off.o
+ .eh_frame      0x0000000000000000       0x38 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_off.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_on.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_on.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_on.o
+ .eh_frame      0x0000000000000000       0x78 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_on.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_setup.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_setup.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_setup.o
+ .text.psci_prepare_next_non_secure_ctx
+                0x0000000000000000       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_setup.o
+ .eh_frame      0x0000000000000000       0x98 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_setup.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_suspend.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_suspend.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_suspend.o
+ .eh_frame      0x0000000000000000       0x78 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_suspend.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_system_off.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_system_off.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_system_off.o
+ .eh_frame      0x0000000000000000       0x70 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_system_off.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_get_pending_interrupt_id
+                0x0000000000000000       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_acknowledge_interrupt
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_get_interrupt_type
+                0x0000000000000000       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_end_of_interrupt
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_interrupt_type_to_line
+                0x0000000000000000       0x34 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_get_running_priority
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_is_spi
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_is_ppi
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_is_sgi
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_get_interrupt_active
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_enable_interrupt
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_disable_interrupt
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_set_interrupt_priority
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_has_interrupt_type
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_set_interrupt_type
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_raise_el3_sgi
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_set_spi_routing
+                0x0000000000000000       0x3c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_set_interrupt_pending
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_clear_interrupt_pending
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_set_priority_mask
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text.plat_ic_get_interrupt_id
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .eh_frame      0x0000000000000000      0x218 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_psci_common.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_psci_common.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_psci_common.o
+ .eh_frame      0x0000000000000000       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_psci_common.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+ .eh_frame      0x0000000000000000       0xb8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+ .text.sp_cpu_on
+                0x0000000000000000       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+ .rodata.__func__.1124
+                0x0000000000000000        0xa /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+ .eh_frame      0x0000000000000000       0x50 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_topology.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_topology.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_topology.o
+ .eh_frame      0x0000000000000000       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_topology.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .eh_frame      0x0000000000000000       0xb0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/arm_arch_svc_setup.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/arm_arch_svc_setup.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/arm_arch_svc_setup.o
+ .eh_frame      0x0000000000000000       0x38 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/arm_arch_svc_setup.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/std_svc_setup.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/std_svc_setup.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/std_svc_setup.o
+ .eh_frame      0x0000000000000000       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/std_svc_setup.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl_common.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl_common.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl_common.o
+ .text.page_align
+                0x0000000000000000       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl_common.o
+ .rodata.load_auth_image.str1.1
+                0x0000000000000000      0x11a /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl_common.o
+ .text.load_auth_image
+                0x0000000000000000      0x180 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl_common.o
+ .eh_frame      0x0000000000000000       0x80 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl_common.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/tf_log.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/tf_log.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/tf_log.o
+ .text.tf_log_set_max_level
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/tf_log.o
+ .eh_frame      0x0000000000000000       0x50 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/tf_log.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+ .text.console_unregister
+                0x0000000000000000       0x34 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+ .text.console_switch_state
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+ .text.console_set_scope
+                0x0000000000000000       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+ .text.console_getc
+                0x0000000000000000       0x78 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+ .eh_frame      0x0000000000000000      0x110 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .text.bl2_el3_plat_prepare_exit
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .text.plat_error_handler
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .text.bl2_plat_preload_setup
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .text.bl2_plat_handle_pre_image_load
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .text.bl2_plat_handle_post_image_load
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .text.plat_try_next_boot_source
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .text.plat_get_enc_key_info
+                0x0000000000000000       0x60 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .rodata.plat_get_enc_key_info.str1.1
+                0x0000000000000000       0x21 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .text.setup_page_tables
+                0x0000000000000000       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .eh_frame      0x0000000000000000      0x118 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_log_common.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_log_common.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_log_common.o
+ .eh_frame      0x0000000000000000       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_log_common.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_common.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_common.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_common.o
+ .text.bl31_plat_runtime_setup
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_common.o
+ .text.platform_core_pos_helper
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_common.o
+ .eh_frame      0x0000000000000000       0x70 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_common.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountdi2.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountdi2.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountdi2.o
+ .text.__popcountdi2
+                0x0000000000000000       0x3c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountdi2.o
+ .comment       0x0000000000000000       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountdi2.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountdi2.o
+ .eh_frame      0x0000000000000000       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountdi2.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountsi2.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountsi2.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountsi2.o
+ .text.__popcountsi2
+                0x0000000000000000       0x34 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountsi2.o
+ .comment       0x0000000000000000       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountsi2.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountsi2.o
+ .eh_frame      0x0000000000000000       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountsi2.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+ .text.xlat_arch_is_granule_size_supported
+                0x0000000000000000       0x48 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+ .text.xlat_arch_get_max_supported_granule_size
+                0x0000000000000000       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+ .text.is_mmu_enabled_ctx
+                0x0000000000000000       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+ .text.is_dcache_enabled
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+ .text.xlat_arch_tlbi_va
+                0x0000000000000000       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+ .text.xlat_arch_tlbi_va_sync
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+ .eh_frame      0x0000000000000000       0xf8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .text.mmap_add_region_alloc_va
+                0x0000000000000000       0x48 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .text.mmap_add_alloc_va
+                0x0000000000000000       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .text.xlat_get_mem_attributes
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .text.xlat_change_mem_attributes
+                0x0000000000000000       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .text.enable_mmu_el1
+                0x0000000000000000       0x48 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .text.enable_mmu_el2
+                0x0000000000000000       0x48 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .text.enable_mmu
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .eh_frame      0x0000000000000000      0x160 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+ .text.mmap_add_region_alloc_va_ctx
+                0x0000000000000000       0x64 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+ .eh_frame      0x0000000000000000      0x128 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .rodata.find_xlat_table_entry.str1.1
+                0x0000000000000000       0x2c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .text.find_xlat_table_entry
+                0x0000000000000000       0xb8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .rodata.xlat_get_mem_attributes_internal.str1.1
+                0x0000000000000000       0x1f /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .text.xlat_get_mem_attributes_internal
+                0x0000000000000000      0x11c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .text.xlat_get_mem_attributes_ctx
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .rodata.xlat_change_mem_attributes_ctx.str1.1
+                0x0000000000000000      0x152 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .text.xlat_change_mem_attributes_ctx
+                0x0000000000000000      0x218 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .rodata.__func__.2471
+                0x0000000000000000       0x1f /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .eh_frame      0x0000000000000000       0xe8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console_setup.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console_setup.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console_setup.o
+ .text.sp_uart_init
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console_setup.o
+ .eh_frame      0x0000000000000000       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console_setup.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_common.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_common.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_common.o
+ .eh_frame      0x0000000000000000       0x60 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_common.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_entrypoint.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_entrypoint.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_entrypoint.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_reporting.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_reporting.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_reporting.o
+ .rodata.gic_reg_name
+                0x0000000000000000       0x92 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_reporting.o
+ .text.asm.crash_panic
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_reporting.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/ea_delegate.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/ea_delegate.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/ea_delegate.o
+ .text.asm.handle_lower_el_ea_esb
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/ea_delegate.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_exceptions.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_exceptions.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_exceptions.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .rodata.gic_reg_name
+                0x0000000000000000       0x92 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.errata_a55_768277_wa
+                0x0000000000000000       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.check_errata_768277
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.errata_a55_778703_wa
+                0x0000000000000000       0x2c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.check_errata_778703
+                0x0000000000000000       0x24 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.errata_a55_798797_wa
+                0x0000000000000000       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.check_errata_798797
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.errata_a55_846532_wa
+                0x0000000000000000       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.check_errata_846532
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.errata_a55_903758_wa
+                0x0000000000000000       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.check_errata_903758
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.errata_a55_1221012_wa
+                0x0000000000000000       0x6c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.check_errata_1221012
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.check_errata_1530923
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .rodata.cortex_a55_regs
+                0x0000000000000000        0xe /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.cortex_a55_cpu_reg_dump
+                0x0000000000000000        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+ .text.asm.cpu_rev_var_ls
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+ .text.asm.cpu_rev_var_hs
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+ .text.asm.cpu_rev_var_range
+                0x0000000000000000       0x24 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+ .text.asm.wa_cve_2018_3639_get_disable_ptr
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/dsu_helpers.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/dsu_helpers.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/dsu_helpers.o
+ .text.asm.check_errata_dsu_798953
+                0x0000000000000000       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/dsu_helpers.o
+ .text.asm.errata_dsu_798953_wa
+                0x0000000000000000       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/dsu_helpers.o
+ .text.asm.is_scu_present_in_dsu
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/dsu_helpers.o
+ .text.asm.check_errata_dsu_936184
+                0x0000000000000000       0x38 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/dsu_helpers.o
+ .text.asm.errata_dsu_936184_wa
+                0x0000000000000000       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/dsu_helpers.o
+ .debug_frame   0x0000000000000000       0x88 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/dsu_helpers.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/wa_cve_2017_5715_bpiall.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/wa_cve_2017_5715_bpiall.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/wa_cve_2017_5715_bpiall.o
+ .vectors       0x0000000000000000     0x1000 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/wa_cve_2017_5715_bpiall.o
+ .debug_frame   0x0000000000000000      0x310 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/wa_cve_2017_5715_bpiall.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/wa_cve_2017_5715_mmu.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/wa_cve_2017_5715_mmu.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/wa_cve_2017_5715_mmu.o
+ .vectors       0x0000000000000000      0x800 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/wa_cve_2017_5715_mmu.o
+ .debug_frame   0x0000000000000000      0x190 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/wa_cve_2017_5715_mmu.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context.o
+ .text.asm.el1_sysregs_context_save
+                0x0000000000000000       0xa0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/spinlock.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/spinlock.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/spinlock.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_helpers.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_helpers.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_helpers.o
+ .text.asm.psci_do_pwrdown_cache_maintenance
+                0x0000000000000000       0x3c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_helpers.o
+ .text.asm.psci_do_pwrup_cache_maintenance
+                0x0000000000000000       0x34 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_helpers.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_mp_stack.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_mp_stack.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_mp_stack.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_helpers.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_helpers.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_helpers.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/debug.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/debug.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/debug.o
+ .text.asm.asm_print_newline
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/debug.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+ .text.asm.do_dcsw_op
+                0x0000000000000000       0xdc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+ .text.asm.dcsw_op_louis
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+ .text.asm.dcsw_op_all
+                0x0000000000000000       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+ .text.asm.dcsw_op_level1
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+ .text.asm.dcsw_op_level2
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+ .text.asm.dcsw_op_level3
+                0x0000000000000000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+ .text.asm.smc  0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+ .text.asm.memcpy16
+                0x0000000000000000       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+ .text.asm.disable_mmu_el3
+                0x0000000000000000       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+ .text.asm.disable_mmu_icache_el3
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+ .text.asm.disable_mmu_el1
+                0x0000000000000000       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+ .text.asm.disable_mmu_icache_el1
+                0x0000000000000000        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+ .text.asm.fixup_gdt_reloc
+                0x0000000000000000       0x8c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+ .text.asm.plat_report_exception
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+ .text.asm.plat_reset_handler
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+ .text.asm.plat_disable_acp
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+ .text.asm.bl1_plat_prepare_exit
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+ .text.asm.bl32_plat_enable_mmu
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+ .text.asm.plat_handle_uncontainable_ea
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/enable_mmu.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/enable_mmu.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/enable_mmu.o
+ .text.asm.enable_mmu_direct_el1
+                0x0000000000000000       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/enable_mmu.o
+ .text.asm.enable_mmu_direct_el2
+                0x0000000000000000       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/enable_mmu.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_console_helpers.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_console_helpers.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_console_helpers.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_helpers.o
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_helpers.o
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_helpers.o
+ .text.asm.plat_report_exception
+                0x0000000000000000        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_helpers.o
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memcpy.o)
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memcpy.o)
+ .eh_frame      0x0000000000000000       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memcpy.o)
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memmove.o)
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memmove.o)
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memmove.o)
+ .eh_frame      0x0000000000000000       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memmove.o)
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memset.o)
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memset.o)
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memset.o)
+ .eh_frame      0x0000000000000000       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memset.o)
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(printf.o)
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(printf.o)
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(printf.o)
+ .text.printf   0x0000000000000000       0x54 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(printf.o)
+ .eh_frame      0x0000000000000000       0xb0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(printf.o)
+ .text          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(putchar.o)
+ .data          0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(putchar.o)
+ .bss           0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(putchar.o)
+ .eh_frame      0x0000000000000000       0x38 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(putchar.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000000200000 0x0000000000100000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000200000                . = 0x200000
+                0x0000000000000001                ASSERT ((. == ALIGN (0x1000)), BL31_BASE address is not aligned on a page boundary.)
+                0x0000000000200000                __BL31_START__ = .
+
+.text           0x0000000000200000     0x5000
+                0x0000000000200000                __TEXT_START__ = .
+ *bl31_entrypoint.o(.text*)
+ .text.asm.bl31_entrypoint
+                0x0000000000200000      0x13c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_entrypoint.o
+                0x0000000000200000                bl31_entrypoint
+ .text.asm.bl31_warm_entrypoint
+                0x000000000020013c       0x80 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_entrypoint.o
+                0x000000000020013c                bl31_warm_entrypoint
+ *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.text*)))
+ .text.arm_arch_svc_smc_handler
+                0x00000000002001bc      0x130 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/arm_arch_svc_setup.o
+ .text.asm._cpu_data_by_index
+                0x00000000002002ec       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data.o
+                0x00000000002002ec                _cpu_data_by_index
+ .text.asm.asm_print_hex
+                0x0000000000200304       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/debug.o
+                0x0000000000200304                asm_print_hex
+                0x0000000000200308                asm_print_hex_bits
+ .text.asm.asm_print_str
+                0x0000000000200334       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/debug.o
+                0x0000000000200334                asm_print_str
+ .text.asm.bl31_plat_enable_mmu
+                0x000000000020034c        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+                0x000000000020034c                bl31_plat_enable_mmu
+ .text.asm.check_wa_cve_2017_5715
+                0x0000000000200350       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+                0x0000000000200350                check_wa_cve_2017_5715
+ .text.asm.clean_dcache_range
+                0x0000000000200370       0x38 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+                0x0000000000200370                clean_dcache_range
+ .text.asm.cortex_a55_core_pwr_dwn
+                0x00000000002003a8       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.cortex_a55_reset_func
+                0x00000000002003bc       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .text.asm.cpu_get_rev_var
+                0x00000000002003cc       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+                0x00000000002003cc                cpu_get_rev_var
+ .text.asm.delegate_async_ea
+                0x00000000002003dc        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/ea_delegate.o
+ .text.asm.delegate_sync_ea
+                0x00000000002003e0        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/ea_delegate.o
+ .text.asm.do_panic
+                0x00000000002003e4       0x2c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/debug.o
+                0x00000000002003e4                do_panic
+                0x00000000002003e4                el3_panic
+ .text.asm.ea_proceed
+                0x0000000000200410       0x68 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/ea_delegate.o
+ .text.asm.el1_sysregs_context_restore
+                0x0000000000200478       0xa0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context.o
+                0x0000000000200478                el1_sysregs_context_restore
+ .text.asm.el3_exit
+                0x0000000000200518       0x48 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context.o
+                0x0000000000200518                el3_exit
+ .text.asm.enable_mmu_direct_el3
+                0x0000000000200560       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/enable_mmu.o
+                0x0000000000200560                enable_mmu_direct_el3
+ .text.asm.enter_lower_el_async_ea
+                0x00000000002005b8       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/ea_delegate.o
+                0x00000000002005b8                enter_lower_el_async_ea
+ .text.asm.enter_lower_el_sync_ea
+                0x00000000002005d4       0x78 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/ea_delegate.o
+                0x00000000002005d4                enter_lower_el_sync_ea
+ .text.asm.flush_dcache_range
+                0x000000000020064c       0x38 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+                0x000000000020064c                flush_dcache_range
+ .text.asm.get_cpu_ops_ptr
+                0x0000000000200684       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+                0x0000000000200684                get_cpu_ops_ptr
+ .text.asm.init_cpu_data_ptr
+                0x00000000002006c4       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data.o
+                0x00000000002006c4                init_cpu_data_ptr
+ .text.asm.init_cpu_ops
+                0x00000000002006d8       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+                0x00000000002006d8                init_cpu_ops
+ .text.asm.inv_dcache_range
+                0x00000000002006f8       0x38 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+                0x00000000002006f8                inv_dcache_range
+ .text.asm.plat_crash_console_flush
+                0x0000000000200730       0x54 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_console_helpers.o
+                0x0000000000200730                plat_crash_console_flush
+ .text.asm.plat_crash_console_init
+                0x0000000000200784       0x48 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_console_helpers.o
+                0x0000000000200784                plat_crash_console_init
+ .text.asm.plat_crash_console_putc
+                0x00000000002007cc       0x84 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_console_helpers.o
+                0x00000000002007cc                plat_crash_console_putc
+ .text.asm.plat_get_my_entrypoint
+                0x0000000000200850        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_helpers.o
+                0x0000000000200850                plat_get_my_entrypoint
+ .text.asm.plat_get_my_stack
+                0x0000000000200858       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_mp_stack.o
+                0x0000000000200858                plat_get_my_stack
+ .text.asm.plat_handle_double_fault
+                0x0000000000200874        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+                0x0000000000200874                plat_handle_double_fault
+ .text.asm.plat_handle_el3_ea
+                0x0000000000200878        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+                0x0000000000200878                plat_handle_el3_ea
+ .text.asm.plat_is_my_cpu_primary
+                0x000000000020087c       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_helpers.o
+                0x000000000020087c                plat_is_my_cpu_primary
+ .text.asm.plat_my_core_pos
+                0x0000000000200890       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_helpers.o
+                0x0000000000200890                plat_my_core_pos
+ .text.asm.plat_panic_handler
+                0x00000000002008a0        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+                0x00000000002008a0                plat_panic_handler
+ .text.asm.plat_reset_handler
+                0x00000000002008a8        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_helpers.o
+                0x00000000002008a8                plat_reset_handler
+ .text.asm.plat_secondary_cold_boot_setup
+                0x00000000002008ac       0x64 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_helpers.o
+                0x00000000002008ac                plat_secondary_cold_boot_setup
+ .text.asm.plat_set_my_stack
+                0x0000000000200910       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_mp_stack.o
+                0x0000000000200910                plat_set_my_stack
+ .text.asm.platform_mem_init
+                0x0000000000200920        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_helpers.o
+                0x0000000000200920                platform_mem_init
+ .text.asm.prepare_cpu_pwr_dwn
+                0x0000000000200924       0x24 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+                0x0000000000200924                prepare_cpu_pwr_dwn
+ .text.asm.psci_power_down_wfi
+                0x0000000000200948        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_helpers.o
+                0x0000000000200948                psci_power_down_wfi
+ .text.asm.report_unhandled_exception
+                0x0000000000200954        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_reporting.o
+                0x0000000000200954                report_unhandled_exception
+                0x0000000000200954                report_unhandled_interrupt
+ .text.asm.reset_handler
+                0x0000000000200958       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+                0x0000000000200958                reset_handler
+ .text.asm.restore_gp_pmcr_pauth_regs
+                0x0000000000200978       0x68 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context.o
+                0x0000000000200978                restore_gp_pmcr_pauth_regs
+ .text.asm.save_and_update_ptw_el1_sys_regs
+                0x00000000002009e0       0x34 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context.o
+                0x00000000002009e0                save_and_update_ptw_el1_sys_regs
+ .text.asm.save_gp_pmcr_pauth_regs
+                0x0000000000200a14       0x74 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context.o
+                0x0000000000200a14                save_gp_pmcr_pauth_regs
+ .text.asm.smc_handler
+                0x0000000000200a88       0x9c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_exceptions.o
+ .text.asm.sp_console_flush
+                0x0000000000200b24       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console.o
+                0x0000000000200b24                sp_console_flush
+ .text.asm.sp_console_getc
+                0x0000000000200b38       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console.o
+                0x0000000000200b38                sp_console_getc
+ .text.asm.sp_console_putc
+                0x0000000000200b54       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console.o
+                0x0000000000200b54                sp_console_putc
+ .text.asm.spin_lock
+                0x0000000000200b68       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/spinlock.o
+                0x0000000000200b68                spin_lock
+ .text.asm.spin_unlock
+                0x0000000000200b88        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/spinlock.o
+                0x0000000000200b88                spin_unlock
+ .text.asm.zeromem
+                0x0000000000200b90        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+                0x0000000000200b90                zeromem
+ .text.asm.zeromem_dczva
+                0x0000000000200b98       0xe8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+                0x0000000000200b98                zero_normalmem
+ .text.bl31_early_platform_setup2
+                0x0000000000200c80       0x54 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+                0x0000000000200c80                bl31_early_platform_setup2
+ .text.bl31_main
+                0x0000000000200cd4       0x90 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+                0x0000000000200cd4                bl31_main
+ .text.bl31_plat_arch_setup
+                0x0000000000200d64        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+                0x0000000000200d64                bl31_plat_arch_setup
+ .text.bl31_plat_get_next_image_ep_info
+                0x0000000000200d6c       0x38 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+                0x0000000000200d6c                bl31_plat_get_next_image_ep_info
+ .text.bl31_plat_runtime_setup
+                0x0000000000200da4       0x50 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+                0x0000000000200da4                bl31_plat_runtime_setup
+ .text.bl31_platform_setup
+                0x0000000000200df4       0x8c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+                0x0000000000200df4                bl31_platform_setup
+ .text.bl31_prepare_next_image_entry
+                0x0000000000200e80       0x88 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+                0x0000000000200e80                bl31_prepare_next_image_entry
+ .text.bl31_setup
+                0x0000000000200f08       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+                0x0000000000200f08                bl31_setup
+ .text.cm_el1_sysregs_context_restore
+                0x0000000000200f1c       0x7c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+                0x0000000000200f1c                cm_el1_sysregs_context_restore
+ .text.cm_get_context
+                0x0000000000200f98        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+                0x0000000000200f98                cm_get_context
+ .text.cm_get_context_by_index
+                0x0000000000200fa4       0x24 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+                0x0000000000200fa4                cm_get_context_by_index
+ .text.cm_init  0x0000000000200fc8        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+                0x0000000000200fc8                cm_init
+ .text.cm_init_context_by_index
+                0x0000000000200fcc       0x2c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+                0x0000000000200fcc                cm_init_context_by_index
+ .text.cm_init_my_context
+                0x0000000000200ff8       0x2c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+                0x0000000000200ff8                cm_init_my_context
+ .text.cm_prepare_el3_exit
+                0x0000000000201024       0xc0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+                0x0000000000201024                cm_prepare_el3_exit
+ .text.cm_set_context_by_index
+                0x00000000002010e4       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+                0x00000000002010e4                cm_set_context_by_index
+ .text.cm_set_next_eret_context
+                0x000000000020110c       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+                0x000000000020110c                cm_set_next_eret_context
+ .text.cm_setup_context
+                0x000000000020112c      0x1a4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+                0x000000000020112c                cm_setup_context
+ .text.console_flush
+                0x00000000002012d0       0x54 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+                0x00000000002012d0                console_flush
+ .text.console_is_registered
+                0x0000000000201324       0x2c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+                0x0000000000201324                console_is_registered
+ .text.console_putc
+                0x0000000000201350       0x9c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+                0x0000000000201350                console_putc
+ .text.console_register
+                0x00000000002013ec       0x34 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+                0x00000000002013ec                console_register
+ .text.enable_mmu_el3
+                0x0000000000201420       0x48 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+                0x0000000000201420                enable_mmu_el3
+ .text.generic_delay_timer_init
+                0x0000000000201468       0x44 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/generic_delay_timer.o
+                0x0000000000201468                generic_delay_timer_init
+ .text.generic_delay_timer_init_args
+                0x00000000002014ac       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/generic_delay_timer.o
+                0x00000000002014ac                generic_delay_timer_init_args
+ .text.get_arm_std_svc_args
+                0x00000000002014cc        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+                0x00000000002014cc                get_arm_std_svc_args
+ .text.get_interrupt_type_handler
+                0x00000000002014d8       0x24 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+                0x00000000002014d8                get_interrupt_type_handler
+ .text.get_scr_el3_from_routing_model
+                0x00000000002014fc       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+                0x00000000002014fc                get_scr_el3_from_routing_model
+ .text.get_timer_value
+                0x000000000020152c        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/generic_delay_timer.o
+ .text.gicd_clr_igroupr
+                0x0000000000201538       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+                0x0000000000201538                gicd_clr_igroupr
+ .text.gicd_read_icfgr
+                0x0000000000201568       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+                0x0000000000201568                gicd_read_icfgr
+ .text.gicd_read_igroupr
+                0x000000000020157c       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+                0x000000000020157c                gicd_read_igroupr
+ .text.gicd_set_icfgr
+                0x0000000000201590       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+                0x0000000000201590                gicd_set_icfgr
+ .text.gicd_set_ipriorityr
+                0x00000000002015d0       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+                0x00000000002015d0                gicd_set_ipriorityr
+ .text.gicd_set_isenabler
+                0x00000000002015e4        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+                0x00000000002015e4                gicd_set_isenabler
+ .text.gicd_write_icenabler
+                0x00000000002015f0       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+                0x00000000002015f0                gicd_write_icenabler
+ .text.gicd_write_icfgr
+                0x0000000000201604       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+                0x0000000000201604                gicd_write_icfgr
+ .text.gicd_write_igroupr
+                0x0000000000201618       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+                0x0000000000201618                gicd_write_igroupr
+ .text.gicd_write_ipriorityr
+                0x000000000020162c       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+                0x000000000020162c                gicd_write_ipriorityr
+ .text.gicd_write_isenabler
+                0x000000000020163c       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+                0x000000000020163c                gicd_write_isenabler
+ .text.gicv2_cpuif_disable
+                0x0000000000201650       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+                0x0000000000201650                gicv2_cpuif_disable
+ .text.gicv2_cpuif_enable
+                0x0000000000201670       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+                0x0000000000201670                gicv2_cpuif_enable
+ .text.gicv2_distif_init
+                0x0000000000201690       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+                0x0000000000201690                gicv2_distif_init
+ .text.gicv2_driver_init
+                0x00000000002016e8       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+                0x00000000002016e8                gicv2_driver_init
+ .text.gicv2_get_pending_interrupt_type
+                0x0000000000201704       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+                0x0000000000201704                gicv2_get_pending_interrupt_type
+ .text.gicv2_pcpu_distif_init
+                0x000000000020171c       0x48 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+                0x000000000020171c                gicv2_pcpu_distif_init
+ .text.gicv2_secure_ppi_sgi_setup_props
+                0x0000000000201764       0xe8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+                0x0000000000201764                gicv2_secure_ppi_sgi_setup_props
+ .text.gicv2_secure_spis_configure_props
+                0x000000000020184c       0xac /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+                0x000000000020184c                gicv2_secure_spis_configure_props
+ .text.gicv2_spis_configure_defaults
+                0x00000000002018f8       0x9c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+                0x00000000002018f8                gicv2_spis_configure_defaults
+ .text.init_xlat_tables
+                0x0000000000201994       0x3c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+                0x0000000000201994                init_xlat_tables
+ .text.init_xlat_tables_ctx
+                0x00000000002019d0       0xe4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+                0x00000000002019d0                init_xlat_tables_ctx
+ .text.mdelay   0x0000000000201ab4        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/delay_timer.o
+                0x0000000000201ab4                mdelay
+ .text.memcpy   0x0000000000201ac0       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memcpy.o)
+                0x0000000000201ac0                memcpy
+ .text.memmove  0x0000000000201ae0       0x34 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memmove.o)
+                0x0000000000201ae0                memmove
+ .text.memset   0x0000000000201b14       0x78 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memset.o)
+                0x0000000000201b14                memset
+ .text.mmap_add
+                0x0000000000201b8c       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+                0x0000000000201b8c                mmap_add
+ .text.mmap_add_ctx
+                0x0000000000201b9c       0x3c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+                0x0000000000201b9c                mmap_add_ctx
+ .text.mmap_add_region
+                0x0000000000201bd8       0x34 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+                0x0000000000201bd8                mmap_add_region
+ .text.mmap_add_region_ctx
+                0x0000000000201c0c      0x230 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+                0x0000000000201c0c                mmap_add_region_ctx
+ .text.plat_arm_set_twedel_scr_el3
+                0x0000000000201e3c        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_common.o
+                0x0000000000201e3c                plat_arm_set_twedel_scr_el3
+ .text.plat_core_pos_by_mpidr
+                0x0000000000201e44        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_topology.o
+                0x0000000000201e44                plat_core_pos_by_mpidr
+ .text.plat_ea_handler
+                0x0000000000201e4c       0x74 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_common.o
+                0x0000000000201e4c                plat_ea_handler
+ .text.plat_get_ns_image_entrypoint
+                0x0000000000201ec0       0x24 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+                0x0000000000201ec0                plat_get_ns_image_entrypoint
+ .text.plat_get_power_domain_tree_desc
+                0x0000000000201ee4        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_topology.o
+                0x0000000000201ee4                plat_get_power_domain_tree_desc
+ .text.plat_get_soc_revision
+                0x0000000000201ef0        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+                0x0000000000201ef0                plat_get_soc_revision
+ .text.plat_get_soc_version
+                0x0000000000201ef8        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+                0x0000000000201ef8                plat_get_soc_version
+ .text.plat_get_syscnt_freq2
+                0x0000000000201f00        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_common.o
+                0x0000000000201f00                plat_get_syscnt_freq2
+ .text.plat_get_target_pwr_state
+                0x0000000000201f0c       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_psci_common.o
+                0x0000000000201f0c                plat_get_target_pwr_state
+ .text.plat_ic_get_pending_interrupt_type
+                0x0000000000201f34       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+                0x0000000000201f34                plat_ic_get_pending_interrupt_type
+ .text.plat_is_smccc_feature_available
+                0x0000000000201f64        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+                0x0000000000201f64                plat_is_smccc_feature_available
+ .text.plat_log_get_prefix
+                0x0000000000201f6c       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_log_common.o
+                0x0000000000201f6c                plat_log_get_prefix
+ .text.plat_setup_psci_ops
+                0x0000000000201f9c       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+                0x0000000000201f9c                plat_setup_psci_ops
+ .text.print_entry_point_info
+                0x0000000000201fdc       0x38 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl_common.o
+                0x0000000000201fdc                print_entry_point_info
+ .text.psci_acquire_pwr_domain_locks
+                0x0000000000202014       0x6c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000202014                psci_acquire_pwr_domain_locks
+ .text.psci_affinity_info
+                0x0000000000202080       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+                0x0000000000202080                psci_affinity_info
+ .text.psci_arch_setup
+                0x00000000002020d8       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_setup.o
+                0x00000000002020d8                psci_arch_setup
+ .text.psci_cpu_off
+                0x00000000002020f4        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+                0x00000000002020f4                psci_cpu_off
+ .text.psci_cpu_on
+                0x00000000002020fc       0x5c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+                0x00000000002020fc                psci_cpu_on
+ .text.psci_cpu_on_finish
+                0x0000000000202158       0xd4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_on.o
+                0x0000000000202158                psci_cpu_on_finish
+ .text.psci_cpu_on_start
+                0x000000000020222c      0x160 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_on.o
+                0x000000000020222c                psci_cpu_on_start
+ .text.psci_cpu_suspend
+                0x000000000020238c       0xec /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+                0x000000000020238c                psci_cpu_suspend
+ .text.psci_cpu_suspend_finish
+                0x0000000000202478       0xa0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_suspend.o
+                0x0000000000202478                psci_cpu_suspend_finish
+ .text.psci_cpu_suspend_start
+                0x0000000000202518      0x188 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_suspend.o
+                0x0000000000202518                psci_cpu_suspend_start
+ .text.psci_do_cpu_off
+                0x00000000002026a0       0xe0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_off.o
+                0x00000000002026a0                psci_do_cpu_off
+ .text.psci_do_pwrdown_sequence
+                0x0000000000202780        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000202780                psci_do_pwrdown_sequence
+ .text.psci_do_state_coordination
+                0x0000000000202784      0x1a8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000202784                psci_do_state_coordination
+ .text.psci_features
+                0x000000000020292c       0x68 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+                0x000000000020292c                psci_features
+ .text.psci_find_max_off_lvl
+                0x0000000000202994       0x3c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000202994                psci_find_max_off_lvl
+ .text.psci_find_target_suspend_lvl
+                0x00000000002029d0       0x34 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x00000000002029d0                psci_find_target_suspend_lvl
+ .text.psci_get_parent_pwr_domain_nodes
+                0x0000000000202a04       0x48 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000202a04                psci_get_parent_pwr_domain_nodes
+ .text.psci_get_target_local_pwr_states
+                0x0000000000202a4c       0x90 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000202a4c                psci_get_target_local_pwr_states
+ .text.psci_init_req_local_pwr_states
+                0x0000000000202adc       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000202adc                psci_init_req_local_pwr_states
+ .text.psci_is_last_on_cpu
+                0x0000000000202b34       0x70 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000202b34                psci_is_last_on_cpu
+ .text.psci_mem_chk_range
+                0x0000000000202ba4       0x48 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_mem_protect.o
+                0x0000000000202ba4                psci_mem_chk_range
+ .text.psci_mem_protect
+                0x0000000000202bec       0x5c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_mem_protect.o
+                0x0000000000202bec                psci_mem_protect
+ .text.psci_migrate
+                0x0000000000202c48       0x7c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+                0x0000000000202c48                psci_migrate
+ .text.psci_migrate_info_type
+                0x0000000000202cc4       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+                0x0000000000202cc4                psci_migrate_info_type
+ .text.psci_migrate_info_up_cpu
+                0x0000000000202cdc       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+                0x0000000000202cdc                psci_migrate_info_up_cpu
+ .text.psci_node_hw_state
+                0x0000000000202d04       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+                0x0000000000202d04                psci_node_hw_state
+ .text.psci_print_power_domain_map
+                0x0000000000202d5c      0x130 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000202d5c                psci_print_power_domain_map
+ .text.psci_query_sys_suspend_pwrstate
+                0x0000000000202e8c       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000202e8c                psci_query_sys_suspend_pwrstate
+ .text.psci_release_pwr_domain_locks
+                0x0000000000202ea0       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000202ea0                psci_release_pwr_domain_locks
+ .text.psci_set_pwr_domains_to_run
+                0x0000000000202ef8       0xa8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000202ef8                psci_set_pwr_domains_to_run
+ .text.psci_setup
+                0x0000000000202fa0      0x32c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_setup.o
+                0x0000000000202fa0                psci_setup
+ .text.psci_smc_handler
+                0x00000000002032cc      0x15c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+                0x00000000002032cc                psci_smc_handler
+ .text.psci_spd_migrate_info
+                0x0000000000203428       0x24 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000203428                psci_spd_migrate_info
+ .text.psci_system_off
+                0x000000000020344c       0x38 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_system_off.o
+                0x000000000020344c                psci_system_off
+ .text.psci_system_reset
+                0x0000000000203484       0x38 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_system_off.o
+                0x0000000000203484                psci_system_reset
+ .text.psci_system_reset2
+                0x00000000002034bc       0xa4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_system_off.o
+                0x00000000002034bc                psci_system_reset2
+ .text.psci_system_suspend
+                0x0000000000203560       0x78 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+                0x0000000000203560                psci_system_suspend
+ .text.psci_validate_entry_point
+                0x00000000002035d8       0xf4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x00000000002035d8                psci_validate_entry_point
+ .text.psci_validate_mpidr
+                0x00000000002036cc       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x00000000002036cc                psci_validate_mpidr
+ .text.psci_validate_power_state
+                0x00000000002036ec       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x00000000002036ec                psci_validate_power_state
+ .text.psci_warmboot_entrypoint
+                0x0000000000203714       0xc0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000203714                psci_warmboot_entrypoint
+ .text.putchar  0x00000000002037d4       0x2c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(putchar.o)
+                0x00000000002037d4                putchar
+ .text.runtime_svc_init
+                0x0000000000203800      0x130 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_svc.o
+                0x0000000000203800                runtime_svc_init
+ .text.setup_mmu_cfg
+                0x0000000000203930       0x7c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+                0x0000000000203930                setup_mmu_cfg
+ .text.sp_configure_mmu_el3
+                0x00000000002039ac       0x78 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_common.o
+                0x00000000002039ac                sp_configure_mmu_el3
+ .text.sp_console_setup
+                0x0000000000203a24       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console_setup.o
+                0x0000000000203a24                sp_console_setup
+ .text.sp_cpu_off
+                0x0000000000203a3c       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+                0x0000000000203a3c                sp_cpu_off
+ .text.sp_disable_secondary_cpus
+                0x0000000000203a58       0x1c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+                0x0000000000203a58                sp_disable_secondary_cpus
+ .text.sp_pwr_domain_on_finish
+                0x0000000000203a74       0xf0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .text.sp_pwr_down_wfi
+                0x0000000000203b64       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .text.sp_read_soc_id
+                0x0000000000203b7c        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_common.o
+                0x0000000000203b7c                sp_read_soc_id
+ .text.sp_system_off
+                0x0000000000203b88       0x4c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .text.sp_system_reset
+                0x0000000000203bd4       0x5c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .text.std_svc_setup
+                0x0000000000203c30       0x24 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/std_svc_setup.o
+ .text.std_svc_smc_handler
+                0x0000000000203c54       0xbc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/std_svc_setup.o
+ .text.tcr_physical_addr_size_bits
+                0x0000000000203d10       0x4c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+                0x0000000000203d10                tcr_physical_addr_size_bits
+ .text.tf_log   0x0000000000203d5c       0x94 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/tf_log.o
+                0x0000000000203d5c                tf_log
+ .text.timer_init
+                0x0000000000203df0        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/delay_timer.o
+                0x0000000000203df0                timer_init
+ .text.udelay   0x0000000000203dfc       0x68 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/delay_timer.o
+                0x0000000000203dfc                udelay
+ .text.unsigned_num_print
+                0x0000000000203e64       0xd0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(printf.o)
+ .text.vprintf  0x0000000000203f34      0x3ec /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(printf.o)
+                0x0000000000203f34                vprintf
+ .text.xlat_arch_current_el
+                0x0000000000204320        0xc /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+                0x0000000000204320                xlat_arch_current_el
+ .text.xlat_arch_regime_get_xn_desc
+                0x000000000020432c       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+                0x000000000020432c                xlat_arch_regime_get_xn_desc
+ .text.xlat_desc
+                0x0000000000204340       0xd8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+                0x0000000000204340                xlat_desc
+ .text.xlat_mmap_print
+                0x0000000000204418        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+                0x0000000000204418                xlat_mmap_print
+ .text.xlat_tables_map_region
+                0x000000000020441c      0x1c0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+ .text.xlat_tables_print
+                0x00000000002045dc        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+                0x00000000002045dc                xlat_tables_print
+ *(.vectors)
+ *fill*         0x00000000002045e0      0x220 
+ .vectors       0x0000000000204800      0x800 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_exceptions.o
+                0x0000000000204800                sync_exception_sp_el0
+                0x0000000000204800                runtime_exceptions
+                0x0000000000204880                irq_sp_el0
+                0x0000000000204900                fiq_sp_el0
+                0x0000000000204980                serror_sp_el0
+                0x0000000000204a00                sync_exception_sp_elx
+                0x0000000000204a80                irq_sp_elx
+                0x0000000000204b00                fiq_sp_elx
+                0x0000000000204b80                serror_sp_elx
+                0x0000000000204c00                sync_exception_aarch64
+                0x0000000000204c80                irq_aarch64
+                0x0000000000204d00                fiq_aarch64
+                0x0000000000204d80                serror_aarch64
+                0x0000000000204e00                sync_exception_aarch32
+                0x0000000000204e80                irq_aarch32
+                0x0000000000204f00                fiq_aarch32
+                0x0000000000204f80                serror_aarch32
+                0x0000000000205000                . = ALIGN (0x1000)
+                0x0000000000205000                __TEXT_END__ = .
+
+.iplt           0x0000000000205000        0x0
+ .iplt          0x0000000000205000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+
+.rodata         0x0000000000205000     0x1000
+                0x0000000000205000                __RODATA_START__ = .
+ *(SORT_BY_ALIGNMENT(.rodata*))
+ .rodata.psci_args.3014
+                0x0000000000205000       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .rodata.psci_state_type_str.3297
+                0x0000000000205010       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .rodata.sp_gic_data
+                0x0000000000205028       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+ .rodata.plat_prefix_str
+                0x0000000000205058       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_log_common.o
+ .rodata.sp_mmap
+                0x0000000000205080       0xc8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_common.o
+ .rodata.psci_smc_handler
+                0x0000000000205148       0x2c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+ .rodata.vprintf
+                0x0000000000205174       0x2e /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(printf.o)
+ .rodata.build_message
+                0x00000000002051a2       0x1e /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/build_message.o
+                0x00000000002051a2                build_message
+ .rodata.version_string
+                0x00000000002051c0       0x16 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/build_message.o
+                0x00000000002051c0                version_string
+ .rodata.bl31_prepare_next_image_entry.str1.1
+                0x00000000002051d6       0x89 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .rodata.bl31_main.str1.1
+                0x000000000020525f       0x6e /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .rodata.runtime_svc_init.str1.1
+                0x00000000002052cd       0x50 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_svc.o
+ .rodata.gicv2_driver_init.str1.1
+                0x000000000020531d       0x1f /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .rodata.cm_setup_context.str1.1
+                0x000000000020533c       0x23 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+ .rodata.psci_warmboot_entrypoint.str1.1
+                0x000000000020535f       0x22 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .rodata.psci_print_power_domain_map.str1.1
+                0x0000000000205381       0x91 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .rodata.str1.1
+                0x0000000000205412        0xe /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                                         0x11 (size before relaxing)
+ .rodata.psci_cpu_suspend.str1.1
+                0x0000000000205420       0x33 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+ .rodata.psci_smc_handler.str1.1
+                0x0000000000205453       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+ .rodata.bl31_platform_setup.str1.1
+                0x0000000000205473       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+ .rodata.sp_cpu_off.str1.1
+                0x00000000002054b3       0x11 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+ .rodata.__func__.1120
+                0x00000000002054c4        0xb /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+ .rodata.__func__.1128
+                0x00000000002054cf       0x1a /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+ .rodata.plat_power_domain_tree_desc
+                0x00000000002054e9        0x3 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_topology.o
+ .rodata.sp_system_reset.str1.1
+                0x00000000002054ec       0x1e /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .rodata.sp_system_off.str1.1
+                0x000000000020550a        0xb /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .rodata.plat_setup_psci_ops.str1.1
+                0x0000000000205515        0xb /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .rodata.__func__.2988
+                0x0000000000205520        0xe /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .rodata.__func__.2993
+                0x000000000020552e       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .rodata.__func__.3000
+                0x000000000020553e       0x14 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .rodata.arm_arch_svc_smc_handler.str1.1
+                0x0000000000205552       0x35 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/arm_arch_svc_setup.o
+ .rodata.str1.1
+                0x0000000000205587        0xd /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/arm_arch_svc_setup.o
+ .rodata.std_svc_smc_handler.str1.1
+                0x0000000000205594       0x2d /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/std_svc_setup.o
+ .rodata.str1.1
+                0x00000000002055c1        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/std_svc_setup.o
+ .rodata.print_entry_point_info.str1.1
+                0x00000000002055c9       0x2c /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl_common.o
+ .rodata.str1.1
+                0x00000000002055f5       0x32 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_log_common.o
+ .rodata.plat_ea_handler.str1.1
+                0x0000000000205627       0x69 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_common.o
+ .rodata.mmap_add_region_ctx.str1.1
+                0x0000000000205690       0x2b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+ .rodata.init_xlat_tables_ctx.str1.1
+                0x00000000002056bb       0x4f /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+ .rodata.panic_str
+                0x000000000020570a       0x11 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/debug.o
+ .rodata.vprintf.str1.1
+                0x000000000020571b        0x3 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(printf.o)
+                0x0000000000205720                . = ALIGN (0x8)
+ *fill*         0x000000000020571e        0x2 
+                0x0000000000205720                __RT_SVC_DESCS_START__ = .
+ *(rt_svc_descs)
+ rt_svc_descs   0x0000000000205720       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/arm_arch_svc_setup.o
+ rt_svc_descs   0x0000000000205740       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/std_svc_setup.o
+                0x0000000000205760                __RT_SVC_DESCS_END__ = .
+                0x0000000000205760                . = ALIGN (0x8)
+                0x0000000000205760                __FCONF_POPULATOR_START__ = .
+ *(.fconf_populator)
+                0x0000000000205760                __FCONF_POPULATOR_END__ = .
+                0x0000000000205760                . = ALIGN (0x8)
+                0x0000000000205760                __PMF_SVC_DESCS_START__ = .
+ *(pmf_svc_descs)
+                0x0000000000205760                __PMF_SVC_DESCS_END__ = .
+                0x0000000000205760                . = ALIGN (0x8)
+                0x0000000000205760                __PARSER_LIB_DESCS_START__ = .
+ *(.img_parser_lib_descs)
+                0x0000000000205760                __PARSER_LIB_DESCS_END__ = .
+                0x0000000000205760                . = ALIGN (0x8)
+                0x0000000000205760                __CPU_OPS_START__ = .
+ *(cpu_ops)
+ cpu_ops        0x0000000000205760       0x38 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+                0x0000000000205798                __CPU_OPS_END__ = .
+                0x0000000000205798                . = ALIGN (0x8)
+                0x0000000000205798                __GOT_START__ = .
+ *(.got)
+                0x0000000000205798                __GOT_END__ = .
+                0x0000000000205798                . = ALIGN (0x8)
+                0x0000000000205798                __pubsub_psci_cpu_on_finish_start = .
+ *(__pubsub_psci_cpu_on_finish)
+                0x0000000000205798                __pubsub_psci_cpu_on_finish_end = .
+                0x0000000000205798                __pubsub_psci_suspend_pwrdown_start_start = .
+ *(__pubsub_psci_suspend_pwrdown_start)
+                0x0000000000205798                __pubsub_psci_suspend_pwrdown_start_end = .
+                0x0000000000205798                __pubsub_psci_suspend_pwrdown_finish_start = .
+ *(__pubsub_psci_suspend_pwrdown_finish)
+                0x0000000000205798                __pubsub_psci_suspend_pwrdown_finish_end = .
+                0x0000000000205798                __pubsub_cm_entering_secure_world_start = .
+ *(__pubsub_cm_entering_secure_world)
+                0x0000000000205798                __pubsub_cm_entering_secure_world_end = .
+                0x0000000000205798                __pubsub_cm_exited_secure_world_start = .
+ *(__pubsub_cm_exited_secure_world)
+                0x0000000000205798                __pubsub_cm_exited_secure_world_end = .
+                0x0000000000205798                __pubsub_cm_entering_normal_world_start = .
+ *(__pubsub_cm_entering_normal_world)
+                0x0000000000205798                __pubsub_cm_entering_normal_world_end = .
+                0x0000000000205798                __pubsub_cm_exited_normal_world_start = .
+ *(__pubsub_cm_exited_normal_world)
+                0x0000000000205798                __pubsub_cm_exited_normal_world_end = .
+                0x0000000000206000                . = ALIGN (0x1000)
+ *fill*         0x0000000000205798      0x868 
+                0x0000000000206000                __RODATA_END__ = .
+                0x0000000000000001                ASSERT ((__CPU_OPS_END__ > __CPU_OPS_START__), cpu_ops not defined for this platform.)
+                0x0000000000206000                __RW_START__ = .
+
+.data           0x0000000000206000      0x16e
+                0x0000000000206000                __DATA_START__ = .
+ *(SORT_BY_ALIGNMENT(.data*))
+ .data.sp_psci_ops
+                0x0000000000206000       0xa8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .data.tf_xlat_ctx
+                0x00000000002060a8       0x60 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .data.sp_console
+                0x0000000000206108       0x30 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console_setup.o
+ .data.crash_console_reg_stash
+                0x0000000000206138       0x28 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_console_helpers.o
+ .data.next_image_type
+                0x0000000000206160        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .data.max_log_level
+                0x0000000000206164        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/tf_log.o
+ .data.crash_console_spinlock
+                0x0000000000206168        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_console_helpers.o
+ .data.console_state
+                0x000000000020616c        0x1 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+                0x000000000020616c                console_state
+ .data.crash_console_triggered
+                0x000000000020616d        0x1 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_console_helpers.o
+                0x000000000020616e                __DATA_END__ = .
+
+.igot.plt       0x0000000000206170        0x0
+ .igot.plt      0x0000000000206170        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+
+.rela.dyn       0x0000000000206170        0x0
+                0x0000000000206170                __RELA_START__ = .
+ *(.rela*)
+ .rela.iplt     0x0000000000206170        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .rela.text.runtime_svc_init
+                0x0000000000206170        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .rela.text.cm_el1_sysregs_context_restore
+                0x0000000000206170        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .rela.text.psci_cpu_on_finish
+                0x0000000000206170        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .rela.text.psci_cpu_suspend_start
+                0x0000000000206170        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .rela.text.psci_cpu_suspend_finish
+                0x0000000000206170        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .rela.text.sp_configure_mmu_el3
+                0x0000000000206170        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .rela.text.asm.bl31_entrypoint
+                0x0000000000206170        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .rela.text.asm.smc_handler
+                0x0000000000206170        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .rela.text.asm.get_cpu_ops_ptr
+                0x0000000000206170        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+                0x0000000000206170                __RELA_END__ = .
+
+stacks          0x0000000000206180     0x2000
+                0x0000000000206180                __STACKS_START__ = .
+ *(tzfw_normal_stacks)
+ tzfw_normal_stacks
+                0x0000000000206180     0x2000 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_mp_stack.o
+                0x0000000000208180                __STACKS_END__ = .
+
+.bss            0x0000000000208180      0xea0
+                0x0000000000208180                __BSS_START__ = .
+ *(SORT_BY_ALIGNMENT(.bss*))
+ .bss.percpu_data
+                0x0000000000208180      0x100 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data_array.o
+                0x0000000000208180                percpu_data
+ .bss.psci_ns_context
+                0x0000000000208280      0x880 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_setup.o
+ .bss.bl32_init
+                0x0000000000208b00        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .bss.intr_type_descs
+                0x0000000000208b08       0x60 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+ .bss.driver_data
+                0x0000000000208b68        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .bss.timer_ops
+                0x0000000000208b70        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/delay_timer.o
+ .bss.ops       0x0000000000208b78       0x10 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/generic_delay_timer.o
+ .bss.psci_cpu_pd_nodes
+                0x0000000000208b88       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000208b88                psci_cpu_pd_nodes
+ .bss.psci_plat_pm_ops
+                0x0000000000208bc8        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000208bc8                psci_plat_pm_ops
+ .bss.psci_spd_pm
+                0x0000000000208bd0        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000208bd0                psci_spd_pm
+ .bss.bl32_image_ep_info
+                0x0000000000208bd8       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+ .bss.bl33_image_ep_info
+                0x0000000000208c30       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+ .bss.next_ep_info
+                0x0000000000208c88      0x160 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .bss.console_list
+                0x0000000000208de8        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+                0x0000000000208de8                console_list
+ .bss.mmu_cfg_params
+                0x0000000000208df0       0x18 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+                0x0000000000208df0                mmu_cfg_params
+ .bss.tf_mmap   0x0000000000208e08      0x140 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .bss.psci_locks
+                0x0000000000208f48        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000208f48                psci_locks
+ .bss.psci_non_cpu_pd_nodes
+                0x0000000000208f50       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000208f50                psci_non_cpu_pd_nodes
+ .bss.psci_plat_core_count
+                0x0000000000208f70        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+                0x0000000000208f70                psci_plat_core_count
+ .bss.psci_caps
+                0x0000000000208f74        0x4 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_setup.o
+                0x0000000000208f74                psci_caps
+ .bss.rt_svc_descs_indices
+                0x0000000000208f78       0x80 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_svc.o
+                0x0000000000208f78                rt_svc_descs_indices
+ .bss.psci_req_local_pwr_states
+                0x0000000000208ff8        0x8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ *(COMMON)
+                0x0000000000209000                . = ALIGN (0x40)
+                0x0000000000209000                __BAKERY_LOCK_START__ = .
+                0x0000000000209000                __PERCPU_BAKERY_LOCK_START__ = .
+ *(bakery_lock)
+                0x0000000000209000                . = ALIGN (0x40)
+                0x0000000000209000                __PERCPU_BAKERY_LOCK_END__ = .
+                0x0000000000000000                __PERCPU_BAKERY_LOCK_SIZE__ = ABSOLUTE ((__PERCPU_BAKERY_LOCK_END__ - __PERCPU_BAKERY_LOCK_START__))
+                0x0000000000209000                . = (. + (__PERCPU_BAKERY_LOCK_SIZE__ * 0x3))
+                0x0000000000209000                __BAKERY_LOCK_END__ = .
+                0x0000000000209000                . = ALIGN (0x40)
+                0x0000000000209000                __PMF_TIMESTAMP_START__ = .
+ *(pmf_timestamp_array)
+                0x0000000000209000                . = ALIGN (0x40)
+                0x0000000000209000                __PMF_PERCPU_TIMESTAMP_END__ = .
+                0x0000000000000000                __PERCPU_TIMESTAMP_SIZE__ = ABSOLUTE ((. - __PMF_TIMESTAMP_START__))
+                0x0000000000209000                . = (. + (__PERCPU_TIMESTAMP_SIZE__ * 0x3))
+                0x0000000000209000                __PMF_TIMESTAMP_END__ = .
+                0x0000000000209000                . = ALIGN (0x10)
+ *(base_xlat_table)
+ base_xlat_table
+                0x0000000000209000       0x20 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+                0x0000000000209020                __BSS_END__ = .
+
+xlat_table      0x000000000020a000     0x8000
+ *(xlat_table)
+ xlat_table     0x000000000020a000     0x8000 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+                0x0000000000212000                __RW_END__ = .
+                0x0000000000212000                __BL31_END__ = .
+
+/DISCARD/
+ *(.dynsym .dynstr .hash .gnu.hash)
+                0x0000000000000001                ASSERT ((. <= 0x300000), BL31 image has exceeded its limit.)
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/build_message.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_svc.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/delay_timer.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/generic_delay_timer.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/errata_report.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data_array.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bakery_lock_normal.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_mem_protect.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_off.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_on.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_setup.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_suspend.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_system_off.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_psci_common.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_topology.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/arm_arch_svc_setup.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/std_svc_setup.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl_common.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/tf_log.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_log_common.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_common.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountdi2.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/popcountsi2.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console_setup.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_common.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_entrypoint.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_reporting.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/ea_delegate.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_exceptions.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/dsu_helpers.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/wa_cve_2017_5715_bpiall.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/wa_cve_2017_5715_mmu.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/spinlock.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_helpers.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_mp_stack.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_helpers.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/debug.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/enable_mmu.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_console_helpers.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_helpers.o
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libfdt.a
+LOAD /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a
+OUTPUT(/home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31.elf elf64-littleaarch64)
+
+.comment        0x0000000000000000       0x5a
+ .comment       0x0000000000000000       0x5a /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/build_message.o
+                                         0x5b (size before relaxing)
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_svc.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/delay_timer.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/generic_delay_timer.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data_array.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_mem_protect.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_off.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_on.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_setup.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_suspend.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_system_off.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_psci_common.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_topology.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/arm_arch_svc_setup.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/std_svc_setup.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl_common.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/tf_log.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_log_common.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_common.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console_setup.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_common.o
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memcpy.o)
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memmove.o)
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memset.o)
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(printf.o)
+ .comment       0x000000000000005a       0x5b /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(putchar.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/build_message.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_context_mgmt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/interrupt_mgmt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_svc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gic_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_helpers.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/gicv2_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/delay_timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/generic_delay_timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context_mgmt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data_array.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_mem_protect.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_off.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_on.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_suspend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_system_off.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_gicv2.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_psci_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_bl31_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_cpu_ops.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_topology.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_pm.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/arm_arch_svc_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/std_svc_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/tf_log.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/multi_console.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_bl_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_log_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_arch.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_context.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_core.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/xlat_tables_utils.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memmove.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(memset.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(printf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/lib/libc.a(putchar.o)
+
+.debug_frame    0x0000000000000000      0xc20
+ .debug_frame   0x0000000000000000       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/bl31_entrypoint.o
+ .debug_frame   0x0000000000000040       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_reporting.o
+ .debug_frame   0x0000000000000080       0xa0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/ea_delegate.o
+ .debug_frame   0x0000000000000120      0x1a8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/runtime_exceptions.o
+ .debug_frame   0x00000000000002c8      0x190 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cortex_a55.o
+ .debug_frame   0x0000000000000458      0x100 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_helpers.o
+ .debug_frame   0x0000000000000558       0xa0 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/context.o
+ .debug_frame   0x00000000000005f8       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cpu_data.o
+ .debug_frame   0x0000000000000638       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/spinlock.o
+ .debug_frame   0x0000000000000678       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/psci_helpers.o
+ .debug_frame   0x00000000000006d0       0x40 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_mp_stack.o
+ .debug_frame   0x0000000000000710       0x70 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_helpers.o
+ .debug_frame   0x0000000000000780       0x70 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/debug.o
+ .debug_frame   0x00000000000007f0       0xe8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/cache_helpers.o
+ .debug_frame   0x00000000000008d8       0xe8 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/misc_helpers.o
+ .debug_frame   0x00000000000009c0      0x100 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/platform_helpers.o
+ .debug_frame   0x0000000000000ac0       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/enable_mmu.o
+ .debug_frame   0x0000000000000b18       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/crash_console_helpers.o
+ .debug_frame   0x0000000000000b70       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/sp_console.o
+ .debug_frame   0x0000000000000bc8       0x58 /home/jackyhsieh/Q628_Kernel54/boot/trusted-firmware-a/build/q645/release/bl31/plat_helpers.o

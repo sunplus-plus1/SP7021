@@ -1,0 +1,2 @@
+
+Please find tools/mkimage source in <project>/boot/uboot/tools/mkimage.c
