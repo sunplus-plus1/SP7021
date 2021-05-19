@@ -7,9 +7,6 @@
 [submodule "nonos/Achip-non-os"]
 	path = nonos/Achip-non-os
 	url = https://github.com/sunplus-plus1/Achip-non-os.git
-[submodule "crossgcc"]
-	path = crossgcc
-	url = https://github.com/sunplus-plus1/crossgcc.git
 [submodule "boot/uboot"]
 	path = boot/uboot
 	url = https://github.com/sunplus-plus1/u-boot.git
@@ -34,3 +31,6 @@
 [submodule "boot/trusted-firmware-a"]
 	path = boot/trusted-firmware-a
 	url = https://github.com/sunplus-plus1/trusted-firmware.git
+[submodule "crossgcc"]
+	path = crossgcc
+	url = https://github.com/sunplus-plus1/crossgcc0.git
