@@ -28,9 +28,9 @@
 [submodule "ipack"]
 	path = ipack
 	url = https://github.com/sunplus-plus1/ipack.git
-[submodule "boot/trusted-firmware-a"]
-	path = boot/trusted-firmware-a
-	url = https://github.com/sunplus-plus1/trusted-firmware.git
 [submodule "crossgcc"]
 	path = crossgcc
 	url = https://github.com/sunplus-plus1/crossgcc0.git
+[submodule "boot/trusted-firmware-a"]
+	path = boot/trusted-firmware-a
+	url = https://github.com/sunplus-plus1/trusted-firmware.git
