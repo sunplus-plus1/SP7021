@@ -8,12 +8,7 @@ sudo apt-get install openssl libssl-dev bison flex git make u-boot-tools
 git clone https://github.com/sunplus-plus1/SP7021.git
 cd SP7021
 git submodule update --init --recursive
-git submodule foreach --recursive git checkout master
-### current linux kernel branch is kernel 5.4, if you want to build kernel 4.19, please
-cd linux/kernel 
-git checkout kernel_4.19
-cd -
-###
+git submodule foreach git checkout master
 make config
 ```
 then show
