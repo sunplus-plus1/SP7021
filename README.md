@@ -3,7 +3,7 @@ Before you compile, please make sure these packages are installed:
 ```bash
 sudo apt-get install openssl libssl-dev bison flex git make u-boot-tools
 ```
-Fetch the source code and make config
+Fetch the source code:
 ```bash
 git clone https://github.com/sunplus-plus1/SP7021.git
 cd SP7021
@@ -14,7 +14,7 @@ Configure the build:
 ```bash
 make config
 ```
-You will see:
+Select your board:
 ```bash
 Select boards:
 [1] SP7021 Ev Board     [11] I143 Ev Board      [21] Q645 Ev Board      [31] SP7350 Ev Board
@@ -25,7 +25,7 @@ Select boards:
 [6] BPI-F2P Board
 [7] LTPP3G2 Board (S+)
 ```
-If you selected [1] or [11], please select chip.
+If you selected [1] or [11], please select the chip:
 ```bash
 Select chip.
 [1] Chip C
@@ -45,18 +45,18 @@ Select rootfs:
 ```
 make kconfig
 ```
->after make config is completed. 
+>after make config has completed. 
 >
->**Note 0:** Please don't enter linux/kernel folder and run "make menuconfig"
+>**Note 0:** Please don't enter the `linux/kernel` folder and run "`make menuconfig`"
 >
->**Note 1:** To enable USB gadget, please refer to [here](https://github.com/sunplus-plus1/usb_gadget)
+>**Note 1:** For USB gadget support, please refer to [here](https://github.com/sunplus-plus1/usb_gadget)
 
 Build the kernel:
 ```
 make
 ```
 
-Finally, please get image file from `out` folder.
+When the build completes, you will find the image file in the `out` folder.
 
 If you chose
 * eMMC:
