@@ -1,7 +1,7 @@
 # How to compile 
 Before you compile, please make sure these packages are installed:
-```bash
-sudo apt-get install openssl libssl-dev bison flex git make u-boot-tools
+```bashl
+sudo apt-get install openssl libssl-dev bison flex git make u-boot-tools libmpc-dev libgmp-dev
 ```
 Fetch the source code:
 ```bash
