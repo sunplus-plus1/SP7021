@@ -37,3 +37,9 @@
 [submodule "boot/opensbi"]
 	path = boot/opensbi
 	url = https://github.com/sunplus-plus1/opensbi.git
+[submodule "firmware/iop"]
+	path = firmware/iop
+	url = https://github.com/sunplus-plus1/iop.git
+[submodule "firmware/arduino_core_sunplus"]
+	path = firmware/arduino_core_sunplus
+	url = https://github.com/sunplus-plus1/arduino_core_sunplus.git
