@@ -34,9 +34,6 @@
 [submodule "boot/trusted-firmware-a"]
 	path = boot/trusted-firmware-a
 	url = https://github.com/sunplus-plus1/trusted-firmware.git
-[submodule "boot/opensbi"]
-	path = boot/opensbi
-	url = https://github.com/sunplus-plus1/opensbi.git
 [submodule "firmware/iop"]
 	path = firmware/iop
 	url = https://github.com/sunplus-plus1/iop.git
