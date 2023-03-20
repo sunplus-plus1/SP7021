@@ -55,7 +55,10 @@ Build the kernel:
 ```
 make
 ```
-
+If your local LANG is not english, please run
+```
+LANG=c make
+```
 When the build completes, you will find the image file in the `out` folder.
 
 If you chose
