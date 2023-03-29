@@ -40,3 +40,6 @@
 [submodule "firmware/arduino_core_sunplus"]
 	path = firmware/arduino_core_sunplus
 	url = https://github.com/sunplus-plus1/arduino_core_sunplus.git
+[submodule "optee"]
+	path = optee
+	url = git@github.com:sunplus-plus1/optee.git
