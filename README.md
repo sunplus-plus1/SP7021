@@ -2,6 +2,7 @@
 Before you compile, please make sure these packages are installed:
 ```bashl
 sudo apt-get install openssl libssl-dev bison flex git make u-boot-tools libmpc-dev libgmp-dev
+pip install pycryptodomex pyelftools Crypto
 ```
 Fetch the source code:
 ```bash
