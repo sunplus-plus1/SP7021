@@ -42,4 +42,4 @@
 	url = https://github.com/sunplus-plus1/arduino_core_sunplus.git
 [submodule "optee"]
 	path = optee
-	url = git@github.com:sunplus-plus1/optee.git
+	url = https://github.com/sunplus-plus1/optee.git
